@@ -37,6 +37,14 @@ dependencies:
   http: ^1.6.0
   syncfusion_flutter_pdf: ^31.2.12
   file_picker: ^10.3.7
+  flutter_screenutil: ^5.9.3
+  auto_size_text: ^3.0.0
+  dotted_border: ^3.1.0
+  url_launcher: ^6.3.2
+  animated_text_kit: ^4.2.3
+  animate_do: ^4.2.0
+  google_fonts: ^6.2.1
+  scrollable_positioned_list: ^0.3.8
 
 dev_dependencies:
   flutter_test:
@@ -61,8 +69,63 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - flower/
+    - assets/linkedn1.png
+    - assets/php.png
+    - assets/js.png
+    - assets/fiza1.png
+    - assets/facebook.png
+    - assets/css.png
+    - assets/github.png
+    - assets/flutter.png
+    - assets/devsinn.png
+    - assets/html.png
+    - assets/cpp.png
+    - assets/whatsapp.png
+    - assets/fiza2.jpg
+    - assets/image1.png
+    - assets/login.jpg
+    - assets/uni.jpeg
+    - assets/school.png
+    - assets/college.png
+    - assets/boot1.png
+    - assets/vs.png
+    - assets/figma.png
+    - assets/post1.png
+    - assets/git.png
+    - assets/images/kabeer.png
+    - assets/images/kaber.png
+    - assets/images/Facebook.png
+    - assets/images/flutter.png
+    - assets/images/github.png
+    - assets/images/git.png
+    - assets/images/postman.png
+    - assets/images/canva.png
+    - assets/images/dart.png
+    - assets/images/WhatsApp.png
+    - assets/images/kabeerb.jpeg
+    - assets/images/css.png
+    - assets/images/html.png
+    - assets/images/java.png
+    - assets/images/post.png
+    - assets/images/posts.png
+    - assets/images/sup.jpg
+    - assets/images/center.jpg
+    - assets/images/virtual.jpg
+    - assets/images/virtual.jpg
+    - assets/images/profile1.png
+    - assets/images/Devsinn.jpg
+    - assets/images/contact.jpg
+    - assets/images/ss.png
+    - assets/images/sw.png
+    - assets/images/swa.png
+    - assets/images/linke.png
+    - assets/images/k.png
+    - assets/images/
+
+
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -76,8 +139,41 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/roboto.ttf
+    - family: Roboto2
+      fonts:
+        - asset: fonts/roboto2.ttf       
+    - family: Lato
+      fonts:
+        - asset: fonts/lato.ttf    
+    - family: Sora
+      fonts:
+        - asset: fonts/sora.ttf     
+    - family: Play
+      fonts:
+        - asset: fonts/play.ttf   
+    - family: Play1
+      fonts:
+        - asset: fonts/play1.ttf        
+    - family: font
+      fonts:
+        # - asset: assets/font.ttf
+        - asset: assets/RobotoSlab-VariableFont_wght.ttf
+        # - asset: assets/sans.ttf
+    - family: font1
+      fonts:
+        - asset: assets/sans.ttf     
+    - family: font
+      fonts:
+        - asset: assets/fonts/static/Montserrat-Regular.ttf   
+    - family: fonts
+      fonts:
+        - asset: assets/fonts/sta/OpenSans_Condensed-Bold.ttf
+        - asset: assets/fonts/sta/OpenSans_Condensed-Regular.ttf                       
+ 
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
